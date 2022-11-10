@@ -10,8 +10,10 @@ Rabatt(String name, int pris, int antal, double rabatt) {
 
  int rabbaterat() {
 	
+int pris = super.getPris();
+double rabbat2 = pris * rabatt;
+return (int) Math.round(rabbat2);
 
-return (int) (getPris()*rabatt);
  }
  
 }

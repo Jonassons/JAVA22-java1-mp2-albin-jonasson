@@ -36,7 +36,7 @@ public class Main {
 		
 		case 3:
 			rab.howManyLeft();
-			kund1.kundVagn(1, rab.getPris());
+			kund1.kundVagn(1, rab.rabbaterat());
 			
 		break;
 		
